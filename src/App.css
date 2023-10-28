@@ -1,0 +1,26 @@
+
+.parent {
+  display: flex;
+  justify-content: center;
+  gap: 20%;
+  margin-top: 5%;
+}
+.all{
+  background: linear-gradient(50deg, rgba(255, 166, 0, 0), rgba(0, 255, 255, 0));
+}
+button {
+  position: absolute;
+  height: 65px;
+  width: 85px;
+  top: 55%;
+  background: linear-gradient(388deg, red, #efff00);
+}
+button:hover {
+  background: linear-gradient(388deg, #efff00, red);
+  cursor: pointer;
+}
+.dice-num {
+  position: absolute;
+  top: 40%;
+  font-size: 33px;
+}
